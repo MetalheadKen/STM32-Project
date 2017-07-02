@@ -1,0 +1,130 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ken Ken, Ken, LIC=VGXGK-ZKQMF-Z9QG9-46SZE-R67JE-WJQH6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+C:\Users\user\Desktop\STM32F4EVB Data\Firmware\STM32F4_EVB-WJ-D2032\Project\STM32F4xx_StdPeriph_Templates\MDK-ARM\Project.uvprojx
+Project File Date:  07/14/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM324x7I_EVAL'
+compiling stm32f4xx_fsmc.c...
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(129): error:  #20: identifier "FSMC_Bank1" is undefined
+      FSMC_Bank1->BTCR[FSMC_Bank] = 0x000030DB;    
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(134): error:  #20: identifier "FSMC_Bank1" is undefined
+      FSMC_Bank1->BTCR[FSMC_Bank] = 0x000030D2; 
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(136): error:  #20: identifier "FSMC_Bank1" is undefined
+    FSMC_Bank1->BTCR[FSMC_Bank + 1] = 0x0FFFFFFF;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(137): error:  #20: identifier "FSMC_Bank1E" is undefined
+    FSMC_Bank1E->BWTR[FSMC_Bank] = 0x0FFFFFFF;  
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(173): error:  #20: identifier "FSMC_Bank1" is undefined
+    FSMC_Bank1->BTCR[FSMC_NORSRAMInitStruct->FSMC_Bank] = 
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(210): error:  #20: identifier "FSMC_Bank1E" is undefined
+      FSMC_Bank1E->BWTR[FSMC_NORSRAMInitStruct->FSMC_Bank] = 
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(220): error:  #20: identifier "FSMC_Bank1E" is undefined
+      FSMC_Bank1E->BWTR[FSMC_NORSRAMInitStruct->FSMC_Bank] = 0x0FFFFFFF;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(281): error:  #20: identifier "FSMC_Bank1" is undefined
+      FSMC_Bank1->BTCR[FSMC_Bank] |= BCR_MBKEN_SET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(286): error:  #20: identifier "FSMC_Bank1" is undefined
+      FSMC_Bank1->BTCR[FSMC_Bank] &= BCR_MBKEN_RESET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(354): error:  #20: identifier "FSMC_Bank2" is undefined
+      FSMC_Bank2->PCR2 = 0x00000018;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(363): error:  #20: identifier "FSMC_Bank3" is undefined
+      FSMC_Bank3->PCR3 = 0x00000018;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(422): error:  #20: identifier "FSMC_Bank2" is undefined
+      FSMC_Bank2->PCR2 = tmppcr;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(429): error:  #20: identifier "FSMC_Bank3" is undefined
+      FSMC_Bank3->PCR3 = tmppcr;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(481): error:  #20: identifier "FSMC_Bank2" is undefined
+        FSMC_Bank2->PCR2 |= PCR_PBKEN_SET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(485): error:  #20: identifier "FSMC_Bank3" is undefined
+        FSMC_Bank3->PCR3 |= PCR_PBKEN_SET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(493): error:  #20: identifier "FSMC_Bank2" is undefined
+        FSMC_Bank2->PCR2 &= PCR_PBKEN_RESET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(497): error:  #20: identifier "FSMC_Bank3" is undefined
+        FSMC_Bank3->PCR3 &= PCR_PBKEN_RESET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(521): error:  #20: identifier "FSMC_Bank2" is undefined
+        FSMC_Bank2->PCR2 |= PCR_ECCEN_SET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(525): error:  #20: identifier "FSMC_Bank3" is undefined
+        FSMC_Bank3->PCR3 |= PCR_ECCEN_SET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(533): error:  #20: identifier "FSMC_Bank2" is undefined
+        FSMC_Bank2->PCR2 &= PCR_ECCEN_RESET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(537): error:  #20: identifier "FSMC_Bank3" is undefined
+        FSMC_Bank3->PCR3 &= PCR_ECCEN_RESET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(557): error:  #20: identifier "FSMC_Bank2" is undefined
+      eccval = FSMC_Bank2->ECCR2;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(562): error:  #20: identifier "FSMC_Bank3" is undefined
+      eccval = FSMC_Bank3->ECCR3;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(617): error:  #20: identifier "FSMC_Bank4" is undefined
+    FSMC_Bank4->PCR4 = 0x00000018; 
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(653): error:  #20: identifier "FSMC_Bank4" is undefined
+    FSMC_Bank4->PCR4 = (uint32_t)FSMC_PCCARDInitStruct->FSMC_Waitfeature |
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(716): error:  #20: identifier "FSMC_Bank4" is undefined
+      FSMC_Bank4->PCR4 |= PCR_PBKEN_SET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(721): error:  #20: identifier "FSMC_Bank4" is undefined
+      FSMC_Bank4->PCR4 &= PCR_PBKEN_RESET;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(767): error:  #20: identifier "FSMC_Bank2" is undefined
+        FSMC_Bank2->SR2 |= FSMC_IT;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(772): error:  #20: identifier "FSMC_Bank3" is undefined
+        FSMC_Bank3->SR3 |= FSMC_IT;
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(777): error:  #20: identifier "FSMC_Bank4" is undefined
+        FSMC_Bank4->SR4 |= FSMC_IT;    
+..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c: 0 warnings, 30 errors
+compiling stm324x7i_eval_fsmc_sram.c...
+..\..\..\Utilities\STM32_EVAL\STM324x7I_EVAL\stm324x7i_eval_fsmc_sram.c(118): error:  #20: identifier "RCC_AHB3Periph_FSMC" is undefined
+    RCC_AHB3PeriphClockCmd(RCC_AHB3Periph_FSMC, ENABLE); 
+..\..\..\Utilities\STM32_EVAL\STM324x7I_EVAL\stm324x7i_eval_fsmc_sram.c(143): error:  #20: identifier "GPIO_AF_FSMC" is undefined
+    GPIO_PinAFConfig(
+PIOD, 
+PIO_PinSource0, GPIO_AF_FSMC);
+..\..\..\Utilities\STM32_EVAL\STM324x7I_EVAL\stm324x7i_eval_fsmc_sram.c: 0 warnings, 2 errors
+compiling stm324x7i_eval_lcd.c...
+..\..\..\Utilities\STM32_EVAL\STM324x7I_EVAL\stm324x7i_eval_lcd.c(1297): error:  #20: identifier "GPIO_AF_FSMC" is undefined
+    GPIO_PinAFConfig(
+PIOD, 
+PIO_PinSource0, GPIO_AF_FSMC);
+..\..\..\Utilities\STM32_EVAL\STM324x7I_EVAL\stm324x7i_eval_lcd.c(1345): error:  #20: identifier "RCC_AHB3Periph_FSMC" is undefined
+    RCC_AHB3PeriphClockCmd(RCC_AHB3Periph_FSMC, ENABLE);
+..\..\..\Utilities\STM32_EVAL\STM324x7I_EVAL\stm324x7i_eval_lcd.c: 0 warnings, 2 errors
+".\STM324x7I_EVAL\STM324x7I_EVAL.axf" - 34 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta4.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\user\Desktop\STM32F4EVB Data\Firmware\STM32F4_EVB-WJ-D2032\Project\STM32F4xx_StdPeriph_Templates\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

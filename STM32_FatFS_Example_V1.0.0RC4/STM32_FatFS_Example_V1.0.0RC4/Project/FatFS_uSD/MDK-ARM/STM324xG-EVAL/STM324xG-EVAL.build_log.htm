@@ -1,0 +1,433 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ken Ken, Ken, LIC=VGXGK-ZKQMF-Z9QG9-46SZE-R67JE-WJQH6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+C:\Users\user\Desktop\STM32_FatFS_Example_V1.0.0RC4\STM32_FatFS_Example_V1.0.0RC4\Project\FatFS_uSD\MDK-ARM\Project.uvprojx
+Project File Date:  07/24/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM324xG-EVAL'
+compiling stm324x9i_eval_fmc_nor.c...
+..\stm324x9i_eval_fmc_nor.c(79): error:  #20: identifier "FMC_NORSRAMInitTypeDef" is undefined
+    FMC_NORSRAMInitTypeDef  FMC_NORSRAMInitStructure;
+..\stm324x9i_eval_fmc_nor.c(80): error:  #20: identifier "FMC_NORSRAMTimingInitTypeDef" is undefined
+    FMC_NORSRAMTimingInitTypeDef  FMC_NORSRAMTimingStructure;
+..\stm324x9i_eval_fmc_nor.c(86): error:  #20: identifier "RCC_AHB3Periph_FMC" is undefined
+    RCC_AHB3PeriphClockCmd(RCC_AHB3Periph_FMC, ENABLE); 
+..\stm324x9i_eval_fmc_nor.c(96): error:  #20: identifier "FMC_AccessMode_A" is undefined
+    FMC_NORSRAMTimingStructure.FMC_AccessMode = FMC_AccessMode_A; 
+..\stm324x9i_eval_fmc_nor.c(99): error:  #20: identifier "FMC_Bank1_NORSRAM1" is undefined
+    FMC_NORSRAMInitStructure.FMC_Bank = FMC_Bank1_NORSRAM1;
+..\stm324x9i_eval_fmc_nor.c(100): error:  #20: identifier "FMC_DataAddressMux_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_DataAddressMux = FMC_DataAddressMux_Disable;
+..\stm324x9i_eval_fmc_nor.c(101): error:  #20: identifier "FMC_MemoryType_NOR" is undefined
+    FMC_NORSRAMInitStructure.FMC_MemoryType = FMC_MemoryType_NOR;
+..\stm324x9i_eval_fmc_nor.c(102): error:  #20: identifier "FMC_NORSRAM_MemoryDataWidth_16b" is undefined
+    FMC_NORSRAMInitStructure.FMC_MemoryDataWidth = FMC_NORSRAM_MemoryDataWidth_16b;
+..\stm324x9i_eval_fmc_nor.c(103): error:  #20: identifier "FMC_BurstAccessMode_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_BurstAccessMode = 
+OR_BURSTACCESS;  
+..\stm324x9i_eval_fmc_nor.c(104): error:  #20: identifier "FMC_WaitSignalPolarity_Low" is undefined
+    FMC_NORSRAMInitStructure.FMC_WaitSignalPolarity = FMC_WaitSignalPolarity_Low;
+..\stm324x9i_eval_fmc_nor.c(105): error:  #20: identifier "FMC_WrapMode_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_WrapMode = FMC_WrapMode_Disable;
+..\stm324x9i_eval_fmc_nor.c(106): error:  #20: identifier "FMC_WaitSignalActive_BeforeWaitState" is undefined
+    FMC_NORSRAMInitStructure.FMC_WaitSignalActive = FMC_WaitSignalActive_BeforeWaitState;
+..\stm324x9i_eval_fmc_nor.c(107): error:  #20: identifier "FMC_WriteOperation_Enable" is undefined
+    FMC_NORSRAMInitStructure.FMC_WriteOperation = FMC_WriteOperation_Enable;
+..\stm324x9i_eval_fmc_nor.c(108): error:  #20: identifier "FMC_WaitSignal_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_WaitSignal = FMC_WaitSignal_Disable;
+..\stm324x9i_eval_fmc_nor.c(109): error:  #20: identifier "FMC_ExtendedMode_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_ExtendedMode = FMC_ExtendedMode_Disable;
+..\stm324x9i_eval_fmc_nor.c(110): error:  #20: identifier "FMC_AsynchronousWait_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_AsynchronousWait = FMC_AsynchronousWait_Disable;
+..\stm324x9i_eval_fmc_nor.c(111): error:  #20: identifier "FMC_WriteBurst_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_WriteBurst = 
+OR_WRITEBURST;
+..\stm324x9i_eval_fmc_nor.c(112): error:  #20: identifier "FMC_CClock_SyncOnly" is undefined
+    FMC_NORSRAMInitStructure.FMC_ContinousClock = 
+ONTINUOUSCLOCK_FEATURE;
+..\stm324x9i_eval_fmc_nor.c(117): warning:  #223-D: function "FMC_NORSRAMDeInit" declared implicitly
+    FMC_NORSRAMDeInit(FMC_Bank1_NORSRAM1);
+..\stm324x9i_eval_fmc_nor.c(120): warning:  #223-D: function "FMC_NORSRAMInit" declared implicitly
+    FMC_NORSRAMInit(&FMC_NORSRAMInitStructure);
+..\stm324x9i_eval_fmc_nor.c(123): warning:  #223-D: function "FMC_NORSRAMCmd" declared implicitly
+    FMC_NORSRAMCmd(FMC_Bank1_NORSRAM1, ENABLE);
+..\stm324x9i_eval_fmc_nor.c(172): error:  #20: identifier "GPIO_AF_FMC" is undefined
+    GPIO_PinAFConfig(
+PIOD, 
+PIO_PinSource0, GPIO_AF_FMC);
+..\stm324x9i_eval_fmc_nor.c: 3 warnings, 19 errors
+compiling stm324x9i_eval_audio_codec.c...
+..\stm324x9i_eval_audio_codec.c(504): warning:  #223-D: function "SAI_Cmd" declared implicitly
+    SAI_Cmd(SAI1_Block_B, ENABLE); 
+..\stm324x9i_eval_audio_codec.c(504): error:  #20: identifier "SAI1_Block_B" is undefined
+    SAI_Cmd(SAI1_Block_B, ENABLE); 
+..\stm324x9i_eval_audio_codec.c(505): warning:  #223-D: function "SAI_SendData" declared implicitly
+    SAI_SendData(SAI1_Block_B, 0x00);
+..\stm324x9i_eval_audio_codec.c(1236): error:  #20: identifier "SAI_InitTypeDef" is undefined
+   SAI_InitTypeDef       SAI_InitStructure;
+..\stm324x9i_eval_audio_codec.c(1237): error:  #20: identifier "SAI_FrameInitTypeDef" is undefined
+   SAI_FrameInitTypeDef  SAI_FrameInitStructure;
+..\stm324x9i_eval_audio_codec.c(1238): error:  #20: identifier "SAI_SlotInitTypeDef" is undefined
+   SAI_SlotInitTypeDef   SAI_SlotInitStructure;
+..\stm324x9i_eval_audio_codec.c(1241): error:  #20: identifier "RCC_APB2Periph_SAI1" is undefined
+    RCC_APB2PeriphClockCmd(
+ODEC_SAI_CLK, ENABLE);
+..\stm324x9i_eval_audio_codec.c(1249): error:  #20: identifier "SAI_MasterDivider_Enabled" is undefined
+    SAI_InitStructure.SAI_NoDivider = SAI_MasterDivider_Enabled;
+..\stm324x9i_eval_audio_codec.c(1255): error:  #20: identifier "SAI_Mode_MasterTx" is undefined
+    SAI_InitStructure.SAI_AudioMode = SAI_Mode_MasterTx;
+..\stm324x9i_eval_audio_codec.c(1256): error:  #20: identifier "SAI_Free_Protocol" is undefined
+    SAI_InitStructure.SAI_Protocol = SAI_Free_Protocol;
+..\stm324x9i_eval_audio_codec.c(1257): error:  #20: identifier "SAI_DataSize_16b" is undefined
+    SAI_InitStructure.SAI_DataSize = SAI_DataSize_16b;
+..\stm324x9i_eval_audio_codec.c(1258): error:  #20: identifier "SAI_FirstBit_MSB" is undefined
+    SAI_InitStructure.SAI_FirstBit = SAI_FirstBit_MSB;
+..\stm324x9i_eval_audio_codec.c(1259): error:  #20: identifier "SAI_ClockStrobing_RisingEdge" is undefined
+    SAI_InitStructure.SAI_ClockStrobing = SAI_ClockStrobing_RisingEdge;
+..\stm324x9i_eval_audio_codec.c(1260): error:  #20: identifier "SAI_Asynchronous" is undefined
+    SAI_InitStructure.SAI_Synchro = SAI_Asynchronous;
+..\stm324x9i_eval_audio_codec.c(1261): error:  #20: identifier "SAI_OutputDrive_Enabled" is undefined
+    SAI_InitStructure.SAI_OUTDRIV = SAI_OutputDrive_Enabled;
+..\stm324x9i_eval_audio_codec.c(1262): error:  #20: identifier "SAI_FIFOThreshold_1QuarterFull" is undefined
+    SAI_InitStructure.SAI_FIFOThreshold = SAI_FIFOThreshold_1QuarterFull;
+..\stm324x9i_eval_audio_codec.c(1263): warning:  #223-D: function "SAI_Init" declared implicitly
+    SAI_Init(CODEC_SAI, &SAI_InitStructure);
+..\stm324x9i_eval_audio_codec.c(1263): error:  #20: identifier "SAI1_Block_B" is undefined
+    SAI_Init(
+ODEC_SAI, &SAI_InitStructure);
+..\stm324x9i_eval_audio_codec.c(1273): error:  #20: identifier "I2S_FS_ChannelIdentification" is undefined
+    SAI_FrameInitStructure.SAI_FSDefinition = I2S_FS_ChannelIdentification;
+..\stm324x9i_eval_audio_codec.c(1274): error:  #20: identifier "SAI_FS_ActiveLow" is undefined
+    SAI_FrameInitStructure.SAI_FSPolarity = SAI_FS_ActiveLow;  
+..\stm324x9i_eval_audio_codec.c(1275): error:  #20: identifier "SAI_FS_BeforeFirstBit" is undefined
+    SAI_FrameInitStructure.SAI_FSOffset = SAI_FS_BeforeFirstBit;
+..\stm324x9i_eval_audio_codec.c(1276): warning:  #223-D: function "SAI_FrameInit" declared implicitly
+    SAI_FrameInit(CODEC_SAI, &SAI_FrameInitStructure);
+..\stm324x9i_eval_audio_codec.c(1284): error:  #20: identifier "SAI_SlotSize_16b" is undefined
+    SAI_SlotInitStructure.SAI_SlotSize = SAI_SlotSize_16b; 
+..\stm324x9i_eval_audio_codec.c(1285): error:  #20: identifier "SAI_SlotSize_DataSize" is undefined
+    SAI_SlotInitStructure.SAI_SlotSize = SAI_SlotSize_DataSize;
+..\stm324x9i_eval_audio_codec.c(1287): error:  #20: identifier "SAI_SlotActive_0" is undefined
+    SAI_SlotInitStructure.SAI_SlotActive = 
+SR_SAI_SlotActive;
+..\stm324x9i_eval_audio_codec.c(1287): error:  #20: identifier "SAI_SlotActive_2" is undefined
+    SAI_SlotInitStructure.SAI_SlotActive = 
+SR_SAI_SlotActive;
+..\stm324x9i_eval_audio_codec.c(1288): warning:  #223-D: function "SAI_SlotInit" declared implicitly
+    SAI_SlotInit(CODEC_SAI, &SAI_SlotInitStructure); 
+..\stm324x9i_eval_audio_codec.c(1290): warning:  #223-D: function "SAI_FlushFIFO" declared implicitly
+    SAI_FlushFIFO(CODEC_SAI);
+..\stm324x9i_eval_audio_codec.c(1309): warning:  #223-D: function "SAI_Cmd" declared implicitly
+    SAI_Cmd(CODEC_SAI, DISABLE);
+..\stm324x9i_eval_audio_codec.c(1309): error:  #20: identifier "SAI1_Block_B" is undefined
+    SAI_Cmd(
+ODEC_SAI, DISABLE);
+..\stm324x9i_eval_audio_codec.c(1312): warning:  #223-D: function "SAI_DeInit" declared implicitly
+    SAI_DeInit(SAI1);
+..\stm324x9i_eval_audio_codec.c(1312): error:  #20: identifier "SAI1" is undefined
+    SAI_DeInit(SAI1);
+..\stm324x9i_eval_audio_codec.c(1315): error:  #20: identifier "RCC_APB2Periph_SAI1" is undefined
+    RCC_APB2PeriphClockCmd(
+ODEC_SAI_CLK, DISABLE);
+..\stm324x9i_eval_audio_codec.c(1351): error:  #20: identifier "GPIO_AF_SAI1" is undefined
+    GPIO_PinAFConfig(
+ODEC_SAI_GPIO, 
+ODEC_SAI_SD_PINSRC, GPIO_AF_SAI1); 
+..\stm324x9i_eval_audio_codec.c(1467): warning:  #223-D: function "SAI_Cmd" declared implicitly
+    SAI_Cmd(CODEC_SAI, DISABLE);
+..\stm324x9i_eval_audio_codec.c(1467): error:  #20: identifier "SAI1_Block_B" is undefined
+    SAI_Cmd(
+ODEC_SAI, DISABLE);
+..\stm324x9i_eval_audio_codec.c(1511): warning:  #223-D: function "SAI_DMACmd" declared implicitly
+    SAI_DMACmd(CODEC_SAI, ENABLE);
+..\stm324x9i_eval_audio_codec.c(1571): warning:  #223-D: function "SAI_GetCmdStatus" declared implicitly
+    if (SAI_GetCmdStatus(CODEC_SAI) == DISABLE)
+..\stm324x9i_eval_audio_codec.c(1571): error:  #20: identifier "SAI1_Block_B" is undefined
+    if (SAI_GetCmdStatus(
+ODEC_SAI) == DISABLE)
+..\stm324x9i_eval_audio_codec.c(1573): warning:  #223-D: function "SAI_Cmd" declared implicitly
+      SAI_Cmd(CODEC_SAI, ENABLE);
+..\stm324x9i_eval_audio_codec.c(1590): warning:  #223-D: function "SAI_DMACmd" declared implicitly
+      SAI_DMACmd(CODEC_SAI, DISABLE);
+..\stm324x9i_eval_audio_codec.c(1590): error:  #20: identifier "SAI1_Block_B" is undefined
+      SAI_DMACmd(
+ODEC_SAI, DISABLE);
+..\stm324x9i_eval_audio_codec.c(1601): warning:  #223-D: function "SAI_DMACmd" declared implicitly
+      SAI_DMACmd(CODEC_SAI, ENABLE);
+..\stm324x9i_eval_audio_codec.c(1601): error:  #20: identifier "SAI1_Block_B" is undefined
+      SAI_DMACmd(
+ODEC_SAI, ENABLE);
+..\stm324x9i_eval_audio_codec.c: 14 warnings, 30 errors
+compiling stm324x9i_eval_lcd.c...
+..\stm324x9i_eval_lcd.c(168): error:  #20: identifier "GPIOJ" is undefined
+    GPIO_PinAFConfig(GPIOJ, GPIO_PinSource0 , GPIO_AF_MCO);
+..\stm324x9i_eval_lcd.c(193): error:  #20: identifier "GPIOK" is undefined
+    GPIO_PinAFConfig(GPIOK, GPIO_PinSource0, GPIO_AF_MCO);
+..\stm324x9i_eval_lcd.c(222): error:  #20: identifier "LTDC_InitTypeDef" is undefined
+    LTDC_InitTypeDef       LTDC_InitStruct;
+..\stm324x9i_eval_lcd.c(223): error:  #20: identifier "LTDC_Layer_TypeDef" is undefined
+    LTDC_Layer_TypeDef     LTDC_Layerx;
+..\stm324x9i_eval_lcd.c(226): error:  #20: identifier "RCC_APB2Periph_LTDC" is undefined
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_LTDC, ENABLE);
+..\stm324x9i_eval_lcd.c(229): error:  #20: identifier "RCC_AHB1Periph_DMA2D" is undefined
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_DMA2D, ENABLE); 
+..\stm324x9i_eval_lcd.c(242): error:  #20: identifier "LTDC_HSPolarity_AL" is undefined
+    LTDC_InitStruct.LTDC_HSPolarity = LTDC_HSPolarity_AL;     
+..\stm324x9i_eval_lcd.c(244): error:  #20: identifier "LTDC_VSPolarity_AL" is undefined
+    LTDC_InitStruct.LTDC_VSPolarity = LTDC_VSPolarity_AL;     
+..\stm324x9i_eval_lcd.c(246): error:  #20: identifier "LTDC_DEPolarity_AL" is undefined
+    LTDC_InitStruct.LTDC_DEPolarity = LTDC_DEPolarity_AL;     
+..\stm324x9i_eval_lcd.c(248): error:  #20: identifier "LTDC_PCPolarity_IPC" is undefined
+    LTDC_InitStruct.LTDC_PCPolarity = LTDC_PCPolarity_IPC;
+..\stm324x9i_eval_lcd.c(271): warning:  #223-D: function "RCC_PLLSAIConfig" declared implicitly
+      RCC_PLLSAIConfig(192, 7, 2);
+..\stm324x9i_eval_lcd.c(272): warning:  #223-D: function "RCC_LTDCCLKDivConfig" declared implicitly
+      RCC_LTDCCLKDivConfig(RCC_PLLSAIDivR_Div4);
+..\stm324x9i_eval_lcd.c(272): error:  #20: identifier "RCC_PLLSAIDivR_Div4" is undefined
+      RCC_LTDCCLKDivConfig(RCC_PLLSAIDivR_Div4);
+..\stm324x9i_eval_lcd.c(275): warning:  #223-D: function "RCC_PLLSAICmd" declared implicitly
+      RCC_PLLSAICmd(ENABLE);
+..\stm324x9i_eval_lcd.c(277): error:  #20: identifier "RCC_FLAG_PLLSAIRDY" is undefined
+      while(RCC_GetFlagStatus(RCC_FLAG_PLLSAIRDY) == RESET)
+..\stm324x9i_eval_lcd.c(299): warning:  #223-D: function "LTDC_Init" declared implicitly
+      LTDC_Init(&LTDC_InitStruct);
+..\stm324x9i_eval_lcd.c(314): warning:  #223-D: function "RCC_PLLSAIConfig" declared implicitly
+      RCC_PLLSAIConfig(192, 7, 3);
+..\stm324x9i_eval_lcd.c(315): warning:  #223-D: function "RCC_LTDCCLKDivConfig" declared implicitly
+      RCC_LTDCCLKDivConfig(RCC_PLLSAIDivR_Div8);
+..\stm324x9i_eval_lcd.c(315): error:  #20: identifier "RCC_PLLSAIDivR_Div8" is undefined
+      RCC_LTDCCLKDivConfig(RCC_PLLSAIDivR_Div8);
+..\stm324x9i_eval_lcd.c(318): warning:  #223-D: function "RCC_PLLSAICmd" declared implicitly
+      RCC_PLLSAICmd(ENABLE);
+..\stm324x9i_eval_lcd.c(320): error:  #20: identifier "RCC_FLAG_PLLSAIRDY" is undefined
+      while(RCC_GetFlagStatus(RCC_FLAG_PLLSAIRDY) == RESET)
+..\stm324x9i_eval_lcd.c(342): warning:  #223-D: function "LTDC_Init" declared implicitly
+      LTDC_Init(&LTDC_InitStruct); 
+..\stm324x9i_eval_lcd.c(354): error:  #20: identifier "LTDC_Layer_InitTypeDef" is undefined
+    LTDC_Layer_InitTypeDef LTDC_Layer_InitStruct;
+..\stm324x9i_eval_lcd.c(371): error:  #20: identifier "LTDC_Pixelformat_RGB565" is undefined
+      LTDC_Layer_InitStruct.LTDC_PixelFormat = LTDC_Pixelformat_RGB565;
+..\stm324x9i_eval_lcd.c(380): error:  #20: identifier "LTDC_BlendingFactor1_CA" is undefined
+      LTDC_Layer_InitStruct.LTDC_BlendingFactor_1 = LTDC_BlendingFactor1_CA;    
+..\stm324x9i_eval_lcd.c(381): error:  #20: identifier "LTDC_BlendingFactor2_CA" is undefined
+      LTDC_Layer_InitStruct.LTDC_BlendingFactor_2 = LTDC_BlendingFactor2_CA;
+..\stm324x9i_eval_lcd.c(401): warning:  #223-D: function "LTDC_LayerInit" declared implicitly
+      LTDC_LayerInit(LTDC_Layer1, &LTDC_Layer_InitStruct);
+..\stm324x9i_eval_lcd.c(401): error:  #20: identifier "LTDC_Layer1" is undefined
+      LTDC_LayerInit(LTDC_Layer1, &LTDC_Layer_InitStruct);
+..\stm324x9i_eval_lcd.c(408): error:  #20: identifier "LTDC_BlendingFactor1_PAxCA" is undefined
+      LTDC_Layer_InitStruct.LTDC_BlendingFactor_1 = LTDC_BlendingFactor1_PAxCA;    
+..\stm324x9i_eval_lcd.c(409): error:  #20: identifier "LTDC_BlendingFactor2_PAxCA" is undefined
+      LTDC_Layer_InitStruct.LTDC_BlendingFactor_2 = LTDC_BlendingFactor2_PAxCA;  
+..\stm324x9i_eval_lcd.c(411): error:  #20: identifier "LTDC_Layer2" is undefined
+      LTDC_LayerInit(LTDC_Layer2, &LTDC_Layer_InitStruct);
+..\stm324x9i_eval_lcd.c(428): error:  #20: identifier "LTDC_Pixelformat_RGB565" is undefined
+      LTDC_Layer_InitStruct.LTDC_PixelFormat = LTDC_Pixelformat_RGB565;
+..\stm324x9i_eval_lcd.c(437): error:  #20: identifier "LTDC_BlendingFactor1_PAxCA" is undefined
+      LTDC_Layer_InitStruct.LTDC_BlendingFactor_1 = LTDC_BlendingFactor1_PAxCA;    
+..\stm324x9i_eval_lcd.c(438): error:  #20: identifier "LTDC_BlendingFactor2_PAxCA" is undefined
+      LTDC_Layer_InitStruct.LTDC_BlendingFactor_2 = LTDC_BlendingFactor2_PAxCA;
+..\stm324x9i_eval_lcd.c(456): warning:  #223-D: function "LTDC_LayerInit" declared implicitly
+      LTDC_LayerInit(LTDC_Layer1, &LTDC_Layer_InitStruct);
+..\stm324x9i_eval_lcd.c(456): error:  #20: identifier "LTDC_Layer1" is undefined
+      LTDC_LayerInit(LTDC_Layer1, &LTDC_Layer_InitStruct);
+..\stm324x9i_eval_lcd.c(462): error:  #20: identifier "LTDC_Layer2" is undefined
+      LTDC_LayerInit(LTDC_Layer2, &LTDC_Layer_InitStruct); 
+..\stm324x9i_eval_lcd.c(465): warning:  #223-D: function "LTDC_ReloadConfig" declared implicitly
+    LTDC_ReloadConfig(LTDC_IMReload);
+..\stm324x9i_eval_lcd.c(465): error:  #20: identifier "LTDC_IMReload" is undefined
+    LTDC_ReloadConfig(LTDC_IMReload);
+..\stm324x9i_eval_lcd.c(468): warning:  #223-D: function "LTDC_LayerCmd" declared implicitly
+    LTDC_LayerCmd(LTDC_Layer1, ENABLE);
+..\stm324x9i_eval_lcd.c(468): error:  #20: identifier "LTDC_Layer1" is undefined
+    LTDC_LayerCmd(LTDC_Layer1, ENABLE);
+..\stm324x9i_eval_lcd.c(469): error:  #20: identifier "LTDC_Layer2" is undefined
+    LTDC_LayerCmd(LTDC_Layer2, ENABLE);
+..\stm324x9i_eval_lcd.c: 12 warnings, 30 errors
+compiling stm324x9i_eval_fmc_sdram.c...
+..\stm324x9i_eval_fmc_sdram.c(64): error:  #20: identifier "FMC_SDRAMInitTypeDef" is undefined
+    FMC_SDRAMInitTypeDef  FMC_SDRAMInitStructure;
+..\stm324x9i_eval_fmc_sdram.c(65): error:  #20: identifier "FMC_SDRAMTimingInitTypeDef" is undefined
+    FMC_SDRAMTimingInitTypeDef  FMC_SDRAMTimingInitStructure; 
+..\stm324x9i_eval_fmc_sdram.c(71): error:  #20: identifier "RCC_AHB3Periph_FMC" is undefined
+    RCC_AHB3PeriphClockCmd(RCC_AHB3Periph_FMC, ENABLE);
+..\stm324x9i_eval_fmc_sdram.c(92): error:  #20: identifier "FMC_Bank1_SDRAM" is undefined
+    FMC_SDRAMInitStructure.FMC_Bank               = FMC_Bank1_SDRAM;
+..\stm324x9i_eval_fmc_sdram.c(94): error:  #20: identifier "FMC_ColumnBits_Number_8b" is undefined
+    FMC_SDRAMInitStructure.FMC_ColumnBitsNumber   = FMC_ColumnBits_Number_8b;
+..\stm324x9i_eval_fmc_sdram.c(96): error:  #20: identifier "FMC_RowBits_Number_11b" is undefined
+    FMC_SDRAMInitStructure.FMC_RowBitsNumber      = FMC_RowBits_Number_11b;
+..\stm324x9i_eval_fmc_sdram.c(97): error:  #20: identifier "FMC_SDMemory_Width_32b" is undefined
+    FMC_SDRAMInitStructure.FMC_SDMemoryDataWidth  = 
+DRAM_MEMORY_WIDTH;
+..\stm324x9i_eval_fmc_sdram.c(98): error:  #20: identifier "FMC_InternalBank_Number_4" is undefined
+    FMC_SDRAMInitStructure.FMC_InternalBankNumber = FMC_InternalBank_Number_4;
+..\stm324x9i_eval_fmc_sdram.c(100): error:  #20: identifier "FMC_CAS_Latency_3" is undefined
+    FMC_SDRAMInitStructure.FMC_CASLatency         = FMC_CAS_Latency_3; 
+..\stm324x9i_eval_fmc_sdram.c(101): error:  #20: identifier "FMC_Write_Protection_Disable" is undefined
+    FMC_SDRAMInitStructure.FMC_WriteProtection    = FMC_Write_Protection_Disable;
+..\stm324x9i_eval_fmc_sdram.c(102): error:  #20: identifier "FMC_SDClock_Period_2" is undefined
+    FMC_SDRAMInitStructure.FMC_SDClockPeriod      = 
+DCLOCK_PERIOD;  
+..\stm324x9i_eval_fmc_sdram.c(103): error:  #20: identifier "FMC_Read_Burst_Enable" is undefined
+    FMC_SDRAMInitStructure.FMC_ReadBurst          = FMC_Read_Burst_Enable;
+..\stm324x9i_eval_fmc_sdram.c(104): error:  #20: identifier "FMC_ReadPipe_Delay_1" is undefined
+    FMC_SDRAMInitStructure.FMC_ReadPipeDelay      = FMC_ReadPipe_Delay_1;
+..\stm324x9i_eval_fmc_sdram.c(108): warning:  #223-D: function "FMC_SDRAMInit" declared implicitly
+    FMC_SDRAMInit(&FMC_SDRAMInitStructure); 
+..\stm324x9i_eval_fmc_sdram.c(180): error:  #20: identifier "GPIO_AF_FMC" is undefined
+    GPIO_PinAFConfig(
+PIOD, 
+PIO_PinSource0, GPIO_AF_FMC);
+..\stm324x9i_eval_fmc_sdram.c(292): error:  #20: identifier "FMC_SDRAMCommandTypeDef" is undefined
+    FMC_SDRAMCommandTypeDef FMC_SDRAMCommandStructure;
+..\stm324x9i_eval_fmc_sdram.c(298): error:  #20: identifier "FMC_Command_Mode_CLK_Enabled" is undefined
+    FMC_SDRAMCommandStructure.FMC_CommandMode = FMC_Command_Mode_CLK_Enabled;
+..\stm324x9i_eval_fmc_sdram.c(299): error:  #20: identifier "FMC_Command_Target_bank1" is undefined
+    FMC_SDRAMCommandStructure.FMC_CommandTarget = FMC_Command_Target_bank1;
+..\stm324x9i_eval_fmc_sdram.c(303): warning:  #223-D: function "FMC_GetFlagStatus" declared implicitly
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(303): error:  #20: identifier "FMC_Bank1_SDRAM" is undefined
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(303): error:  #20: identifier "FMC_FLAG_Busy" is undefined
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(308): warning:  #223-D: function "FMC_SDRAMCmdConfig" declared implicitly
+    FMC_SDRAMCmdConfig(&FMC_SDRAMCommandStructure);  
+..\stm324x9i_eval_fmc_sdram.c(316): error:  #20: identifier "FMC_Command_Mode_PALL" is undefined
+    FMC_SDRAMCommandStructure.FMC_CommandMode = FMC_Command_Mode_PALL;
+..\stm324x9i_eval_fmc_sdram.c(323): warning:  #223-D: function "FMC_GetFlagStatus" declared implicitly
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(323): error:  #20: identifier "FMC_Bank1_SDRAM" is undefined
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(323): error:  #20: identifier "FMC_FLAG_Busy" is undefined
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(332): error:  #20: identifier "FMC_Command_Mode_AutoRefresh" is undefined
+    FMC_SDRAMCommandStructure.FMC_CommandMode = FMC_Command_Mode_AutoRefresh;
+..\stm324x9i_eval_fmc_sdram.c(339): warning:  #223-D: function "FMC_GetFlagStatus" declared implicitly
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(339): error:  #20: identifier "FMC_Bank1_SDRAM" is undefined
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(339): error:  #20: identifier "FMC_FLAG_Busy" is undefined
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(355): error:  #20: identifier "FMC_Command_Mode_LoadMode" is undefined
+    FMC_SDRAMCommandStructure.FMC_CommandMode = FMC_Command_Mode_LoadMode;
+..\stm324x9i_eval_fmc_sdram.c(362): warning:  #223-D: function "FMC_GetFlagStatus" declared implicitly
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(362): error:  #20: identifier "FMC_Bank1_SDRAM" is undefined
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(362): error:  #20: identifier "FMC_FLAG_Busy" is undefined
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(374): warning:  #223-D: function "FMC_SetRefreshCount" declared implicitly
+    FMC_SetRefreshCount(1385);
+..\stm324x9i_eval_fmc_sdram.c(378): warning:  #223-D: function "FMC_GetFlagStatus" declared implicitly
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(378): error:  #20: identifier "FMC_Bank1_SDRAM" is undefined
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c(378): error:  #20: identifier "FMC_FLAG_Busy" is undefined
+    while((FMC_GetFlagStatus(FMC_Bank1_SDRAM, FMC_FLAG_Busy) != RESET) && (timeout > 0))
+..\stm324x9i_eval_fmc_sdram.c: 8 warnings, 30 errors
+compiling system_stm32f4xx.c...
+..\system_stm32f4xx.c(522): error:  #20: identifier "PLL_N" is undefined
+      
+CC->PLLCFGR = 
+LL_M | (PLL_N << 6) | (((PLL_P >> 1) -1) << 16) |
+..\system_stm32f4xx.c(522): error:  #20: identifier "PLL_P" is undefined
+      
+CC->PLLCFGR = 
+LL_M | (PLL_N << 6) | (((PLL_P >> 1) -1) << 16) |
+..\system_stm32f4xx.c: 0 warnings, 2 errors
+compiling stm324x9i_eval_fmc_sram.c...
+..\stm324x9i_eval_fmc_sram.c(64): error:  #20: identifier "FMC_NORSRAMInitTypeDef" is undefined
+    FMC_NORSRAMInitTypeDef  FMC_NORSRAMInitStructure;
+..\stm324x9i_eval_fmc_sram.c(65): error:  #20: identifier "FMC_NORSRAMTimingInitTypeDef" is undefined
+    FMC_NORSRAMTimingInitTypeDef  NORSRAMTimingStructure;
+..\stm324x9i_eval_fmc_sram.c(71): error:  #20: identifier "RCC_AHB3Periph_FMC" is undefined
+    RCC_AHB3PeriphClockCmd(RCC_AHB3Periph_FMC, ENABLE); 
+..\stm324x9i_eval_fmc_sram.c(81): error:  #20: identifier "FMC_AccessMode_A" is undefined
+    NORSRAMTimingStructure.FMC_AccessMode = FMC_AccessMode_A; 
+..\stm324x9i_eval_fmc_sram.c(84): error:  #20: identifier "FMC_Bank1_NORSRAM2" is undefined
+    FMC_NORSRAMInitStructure.FMC_Bank = FMC_Bank1_NORSRAM2;
+..\stm324x9i_eval_fmc_sram.c(85): error:  #20: identifier "FMC_DataAddressMux_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_DataAddressMux = FMC_DataAddressMux_Disable;
+..\stm324x9i_eval_fmc_sram.c(86): error:  #20: identifier "FMC_MemoryType_SRAM" is undefined
+    FMC_NORSRAMInitStructure.FMC_MemoryType = FMC_MemoryType_SRAM;
+..\stm324x9i_eval_fmc_sram.c(87): error:  #20: identifier "FMC_NORSRAM_MemoryDataWidth_16b" is undefined
+    FMC_NORSRAMInitStructure.FMC_MemoryDataWidth = 
+RAM_MEMORY_WIDTH;
+..\stm324x9i_eval_fmc_sram.c(88): error:  #20: identifier "FMC_BurstAccessMode_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_BurstAccessMode = 
+RAM_BURSTACCESS; 
+..\stm324x9i_eval_fmc_sram.c(89): error:  #20: identifier "FMC_AsynchronousWait_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_AsynchronousWait = FMC_AsynchronousWait_Disable;  
+..\stm324x9i_eval_fmc_sram.c(90): error:  #20: identifier "FMC_WaitSignalPolarity_Low" is undefined
+    FMC_NORSRAMInitStructure.FMC_WaitSignalPolarity = FMC_WaitSignalPolarity_Low;
+..\stm324x9i_eval_fmc_sram.c(91): error:  #20: identifier "FMC_WrapMode_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_WrapMode = FMC_WrapMode_Disable;
+..\stm324x9i_eval_fmc_sram.c(92): error:  #20: identifier "FMC_WaitSignalActive_BeforeWaitState" is undefined
+    FMC_NORSRAMInitStructure.FMC_WaitSignalActive = FMC_WaitSignalActive_BeforeWaitState;
+..\stm324x9i_eval_fmc_sram.c(93): error:  #20: identifier "FMC_WriteOperation_Enable" is undefined
+    FMC_NORSRAMInitStructure.FMC_WriteOperation = FMC_WriteOperation_Enable;
+..\stm324x9i_eval_fmc_sram.c(94): error:  #20: identifier "FMC_WaitSignal_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_WaitSignal = FMC_WaitSignal_Disable;
+..\stm324x9i_eval_fmc_sram.c(95): error:  #20: identifier "FMC_ExtendedMode_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_ExtendedMode = FMC_ExtendedMode_Disable;
+..\stm324x9i_eval_fmc_sram.c(96): error:  #20: identifier "FMC_WriteBurst_Disable" is undefined
+    FMC_NORSRAMInitStructure.FMC_WriteBurst = 
+RAM_WRITEBURST;
+..\stm324x9i_eval_fmc_sram.c(97): error:  #20: identifier "FMC_CClock_SyncOnly" is undefined
+    FMC_NORSRAMInitStructure.FMC_ContinousClock = 
+ONTINUOUSCLOCK_FEATURE;
+..\stm324x9i_eval_fmc_sram.c(102): warning:  #223-D: function "FMC_NORSRAMInit" declared implicitly
+    FMC_NORSRAMInit(&FMC_NORSRAMInitStructure); 
+..\stm324x9i_eval_fmc_sram.c(105): warning:  #223-D: function "FMC_NORSRAMCmd" declared implicitly
+    FMC_NORSRAMCmd(FMC_Bank1_NORSRAM2, ENABLE); 
+..\stm324x9i_eval_fmc_sram.c(153): error:  #20: identifier "GPIO_AF_FMC" is undefined
+    GPIO_PinAFConfig(
+PIOD, 
+PIO_PinSource0, GPIO_AF_FMC);
+..\stm324x9i_eval_fmc_sram.c: 2 warnings, 19 errors
+"STM324xG-EVAL\STM324xG-EVAL.axf" - 130 Error(s), 39 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta4.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\user\Desktop\STM32_FatFS_Example_V1.0.0RC4\STM32_FatFS_Example_V1.0.0RC4\Project\FatFS_uSD\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
